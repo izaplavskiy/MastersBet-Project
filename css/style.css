@@ -1,0 +1,238 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, 
+ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, 
+thead, tr, th, td, article, aside, footer, header, menu, nav, 
+output, section {
+    margin: 0;
+    padding: 0; 
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font: 16px/18px 'Calibri', sans-serif;
+    color: #020202;
+    background: #e4e4e4;
+}
+ol, ul {
+    list-style: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after { clear: both; }
+.left { float: left; }
+.right { float: right; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+
+
+
+.center {
+    margin: 0 auto;
+    width: 50%;
+    min-height: 100%;
+    background: #fff;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.top_bg {
+    background: url(../img/bg_top.png) no-repeat bottom center;
+    background-size: cover;
+    height: 163px;
+    width: 100%;
+    z-index: 1;
+    position: relative
+}
+
+.logo {
+    background: url(../img/logo.png) no-repeat center;
+    width: 45%;
+    height: 65px;
+    margin-left: 1%;
+    background-size: contain;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+}
+
+.registr {
+    background: url(../img/reg.png) no-repeat center;
+    width: 50%;
+    height: 20vh;
+    background-size: contain;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text > p {
+    margin: 0 auto;
+    margin-top: 18%;
+    text-align: center;
+    color: #020202;
+    font-size: 1.5em;
+    line-height: 1.8em
+}
+
+.main-text-btn {
+    padding: 1% 5%;
+    border: none;
+    margin-top: 15%;
+    background: linear-gradient(90deg, #da8b34, #fde849);
+    color: #2f2e2e;
+    font-size: 1.8em;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.main-text-social {
+    text-align: center;
+}
+
+.main-text-social a {
+    margin: 6% 0.8% -3% 0.8%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #888888;
+    background: url(../img/socials.png) no-repeat;
+    -webkit-border-radius: 50%;
+    -moz-   border-radius: 50%;
+    -o-     border-radius: 50%;
+            border-radius: 50%;
+}
+
+.main-text-social a.main-text-social-fb {
+    background-position: -1px -1px;
+}
+
+.main-text-social a.main-text-social-fb:hover {
+    background: url(../img/socials-hover.png) no-repeat;
+    background-position: -1px -1px;
+    border: 3px solid #db8c35;
+}
+
+.main-text-social a.main-text-social-you {
+    background-position: -45px -1px;
+}
+
+.main-text-social a.main-text-social-you:hover  {
+    background: url(../img/socials-hover.png) no-repeat;
+    background-position: -45px -1px;
+    border: 3px solid #db8c35;
+}
+
+.main-text-social a.main-text-social-tw {
+    background-position: -91px -1px;
+}
+
+.main-text-social a.main-text-social-tw:hover {
+    background: url(../img/socials-hover.png) no-repeat;
+    background-position: -92px -1px;
+    border: 3px solid #db8c35;
+}
+
+
+.main-text-social a.main-text-social-inst {
+    background-position: -138px -1px;
+}
+
+.main-text-social a.main-text-social-inst:hover {
+    background: url(../img/socials-hover.png) no-repeat;
+    background-position: -138px -1px;
+    border: 3px solid #db8c35;
+}
+
+.main-text-social a.main-text-socia-cont {
+    background-position: -184px -2px;
+}
+
+.main-text-social a.main-text-socia-cont:hover {
+    background: url(../img/socials-hover.png) no-repeat;
+    background-position: -184px -2px;
+    border: 3px solid #db8c35;
+}
+
+.bottom-bg {
+    background: url(../img/bg-bottom.png) no-repeat;
+    background-size: cover;
+    height: 167px;
+    width: 100%;
+    z-index: 1;
+    position: relative
+}
+.logo-cicle {
+    background: url(../img/logo-cicle.png) no-repeat;
+    background-size: contain;
+    width: 67%;
+    height: 67%;
+    position: absolute;
+    top: -24%;
+    left: 76%;
+}
+
+.footer-buttons-1, .footer-buttons-2 {
+    width: 100%;
+    background: #efefe7;
+    text-align: center;
+    letter-spacing: -3px;
+}
+
+.footer-buttons-1 a > img{
+    width: 16.6%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-buttons-2 a > img{
+    width: 16.6%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1540px) {
+    .footer-buttons-1, .footer-buttons-2 {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        font-size: 80%;
+    }
+    .logo-cicle {
+    width: 60%;
+    height: 60%;
+    top: 32%;
+    left: 40%;
+    }
+}
